@@ -2,7 +2,9 @@
 # train
   crnn训练首先要生成一个密码本，包含数据集中所有的汉字
   然后生产train.txt和test.txt格式如下：文件名 汉字所对应密码本的索引
+  
   ![image](https://user-images.githubusercontent.com/27668596/112813126-e098f680-904b-11eb-9688-5fca38144b67.png)
+  
   执行 python3 train.py就可以训练
   # onnx及tensorrt导出及推理
   tensorrt的版本是7.2.3
