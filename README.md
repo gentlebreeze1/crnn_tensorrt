@@ -11,4 +11,4 @@
   运行export.py既可以导出onnx模型
   cd到trt目录  执行convert_trt_quant.py既可以生成tensorrt模型
   执行demo_trt既可以获取推理结果
-  推理时注意tensorrt的input要和onnx模型的input对其
+  推理时注意tensorrt的input要和onnx模型的input shape的对其
